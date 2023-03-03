@@ -1,7 +1,3 @@
-![my badge\](https://badgen.net/github/stars/vercel/next.js "twitter")
-
-
-
 ## Movie API
 - This is a RESTful API for managing movie records. It is built using Go and the Gorilla mux package.
 
