@@ -1,23 +1,23 @@
-## Movie API
-- This is a RESTful API for managing movie records. It is built using Go and the Gorilla mux package.
+#### Movie API
+This is a RESTful API for managing movie records. It is built using Go and the Gorilla mux package.
 
-## Endpoints
-### GET /movies
-- Returns a JSON array of all movies in the database.
+### Endpoints
+#### GET /movies
+Returns a JSON array of all movies in the database.
 
-### GET /movies/{id}
-- Returns a JSON object for a specific movie, identified by {id}.
+#### GET /movies/{id}
+Returns a JSON object for a specific movie, identified by {id}.
 
-### POST /movies
-- Creates a new movie record based on the JSON object in the request body.
+#### POST /movies
+Creates a new movie record based on the JSON object in the request body.
 
-### PUT /movies/{id}
-- Updates an existing movie record identified by {id}, based on the JSON object in the request body.
+#### PUT /movies/{id}
+Updates an existing movie record identified by {id}, based on the JSON object in the request body.
 
-#### DELETE /movies/{id}
-- Deletes an existing movie record identified by {id}.
+##### DELETE /movies/{id}
+Deletes an existing movie record identified by {id}.
 
-## Data Model
+### Data Model
 Each movie record consists of the following fields:
 
 id (string): A unique identifier for the movie record.
@@ -27,7 +27,7 @@ director (object): An object containing the first and last name of the director 
 Usage
 To run the application, run the following command:
 
-## RUN:
+### RUN:
 
 ```
 go run main.go
