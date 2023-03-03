@@ -35,4 +35,4 @@ go run main.go
 ```
 This will start the server at http://localhost:8000/.
 
-You can test the endpoints using a tool like Postman.
+You can test the endpoints using a tool like [Postman](https://github.com/ichdamola/movie-crud/blob/main/movie-crud.postman_collection.json).
